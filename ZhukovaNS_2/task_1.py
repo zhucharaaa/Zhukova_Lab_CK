@@ -14,6 +14,4 @@ while budget >= spend:
         continue
     spend *= (1 + increase) #Теперь месячные расходы увеличиваются
 
-
-
 print("Количество месяцев, которое можно протянуть без долгов:", number_of_months)
